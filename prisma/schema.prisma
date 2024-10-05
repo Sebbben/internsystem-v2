@@ -78,6 +78,15 @@ model WorkGroup {
   UserToWorkGroup UserToWorkGroup[]
 }
 
+model Events {
+  id  String @id @default(cuid())
+  title String
+  description String
+  date DateTime
+  location String?
+  size Int
+}
+
 model varer_konto {
   id                       Int               @id
   innkjopskonto            Int               @db.SmallInt
