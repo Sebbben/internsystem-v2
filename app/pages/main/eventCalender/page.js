@@ -1,14 +1,15 @@
 
 "use client";
 
-import { Box } from "@mui/material";
-import { useEffect, useState } from "react";
+import { Box, Grid, Typography } from "@mui/material";
+
+
 
 export default function EventCalenderPage() {
 
-  
+
   return (
     <Box>
-    </Box>
+      </Box>
   );
 }

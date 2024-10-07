@@ -100,6 +100,7 @@ function MembershipPage() {
           return e.honorary || e.lifetime;
         }).length;
 
+        console.log(newMembershipData);
         setMembershipData(newMembershipData);
         setTableData(newMembershipData);
 
